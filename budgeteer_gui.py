@@ -4,14 +4,15 @@ from PySide6.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QTableWidget,
     QTableWidgetItem, QLabel, QPushButton, QHBoxLayout
 )
+from PySide6.QtGui import QIcon
 from add_transaction import AddTransactionForm  # Assuming add_transaction.py is in the same directory
 from edit_transaction import EditTransactionForm
 class TransactionViewer(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Transaction Viewer")
+        self.setWindowTitle("Budgeteer")
         self.setMinimumSize(800, 600)
-
+        self.setWindowIcon(QIcon("logo2.png"))
         layout = QVBoxLayout()
         self.table = QTableWidget()
         layout.addWidget(QLabel("All Transactions:"))

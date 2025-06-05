@@ -3,7 +3,7 @@ from PySide6.QtWidgets import (
     QLineEdit, QTextEdit, QPushButton, QComboBox, QDateEdit
 )
 from PySide6.QtCore import QDate, Signal
-
+from PySide6.QtGui import QIcon
 
 class AddTransactionForm(QDialog):
     transaction_added = Signal(dict)  # Signal to emit data
@@ -12,7 +12,7 @@ class AddTransactionForm(QDialog):
         super().__init__()
         self.setWindowTitle("Add Transaction")
         self.setMinimumSize(300, 300)
-
+        self.setWindowIcon(QIcon("logo2.png"))
         layout = QVBoxLayout()
         form_layout = QFormLayout()
 
