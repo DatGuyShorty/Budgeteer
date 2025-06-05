@@ -35,3 +35,7 @@ Budgeteer is a simple desktop budgeting application built with Python and PySide
 - `add_transaction.py` — Dialog for adding new transactions.
 - `edit_transaction.py` — Dialog for editing existing transactions.
 - `budget.db` — SQLite database file (created after running the app).
+
+## Screenshots
+
+![screenshot1](Screenshots\screenshot1.png)
