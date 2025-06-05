@@ -1,5 +1,5 @@
+![logo_transparent.png](logo_transparent.png)
 # Budgeteer
-
 Budgeteer is a simple desktop budgeting application built with Python and PySide6. It allows you to track your income and expenses, categorize transactions, and edit or delete them as needed. All data is stored locally in an SQLite database.
 
 ## Features
