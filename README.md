@@ -37,5 +37,4 @@ Budgeteer is a simple desktop budgeting application built with Python and PySide
 - `budget.db` — SQLite database file (created after running the app).
 
 ## Screenshots
-
-![Screenshots\screenshot1.png](Screenshots\screenshot1.png)
+![Screenshots\screenshot1.png](Screenshots/screenshot1.png)
