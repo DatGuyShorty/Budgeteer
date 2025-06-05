@@ -38,4 +38,4 @@ Budgeteer is a simple desktop budgeting application built with Python and PySide
 
 ## Screenshots
 
-![screenshot1](Screenshots\screenshot1.png)
+![Screenshots\screenshot1.png](Screenshots\screenshot1.png)
